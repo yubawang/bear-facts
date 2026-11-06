@@ -1,9 +1,11 @@
 ---
-name: capability-claims
+name: bear-facts
 description: "Check before telling the user what you can do, can't do, or have done. Use whenever the user asks \"can you…\", \"are you able to…\" or \"is it possible…\", or assumes a limit (\"I know you can't…\", \"you probably don't have access\"); whenever you are about to say something is impossible, blocked or unsupported; whenever you promise future work or hand a job to another agent, session or person; and before reporting anything as done, sent, posted, saved, live or ready. Especially relevant for messaging, reminders, smart-home and devices, GUI and browser work, remote machines, forms and deployments."
 ---
 
-# Capability Claims
+# 🐻📋 Bear Facts
+
+Capability claims, backed by the bare facts.
 
 Users act on what you say you can do. A false "I can" wastes their time. A false "I can't" leaves work undone that a local path could have handled. A false "done" is the worst, because nobody goes back to check.
 

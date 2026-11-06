@@ -1,6 +1,6 @@
-# Capability Claims
+# 🐻📋 Bear Facts
 
-A skill that keeps AI agents honest about three things they say all the time:
+**Capability claims, backed by the bare facts.** A skill that keeps AI agents honest about three things they say all the time:
 
 - **"I can do X"**: promised before checking that a working path exists.
 - **"I can't do X"**: declared without looking for the local script or CLI that would do it.
@@ -12,12 +12,12 @@ A skill that keeps AI agents honest about three things they say all the time:
 
 Copy `SKILL.md` into a skill folder your agent reads, for example:
 
-- Claude Code: `~/.claude/skills/capability-claims/SKILL.md` (or `.claude/skills/capability-claims/` in a project)
+- Claude Code: `~/.claude/skills/bear-facts/SKILL.md` (or `.claude/skills/bear-facts/` in a project)
 - Codex or any `AGENTS.md` reader: put the file in your skills directory, or paste the rules into `AGENTS.md`
 
 ## Does it help? (measured 2026-11-06)
 
-There are nine trap scenarios, each in a throwaway sandbox. Every sandbox plants a fake tool or file that makes a wrong claim easy. Three setups were compared: no skill, v1, and v2 (this version). Both skill versions were installed as normal skills, so they had to trigger on their own from the description.
+There are nine trap scenarios, each in a throwaway sandbox. Every sandbox plants a fake tool or file that makes a wrong claim easy. Three setups were compared: no skill, v1, and v2. Bear Facts is v2 renamed (formerly `capability-claims`): only the name and title changed, and the description and rules are the tested v2. Both skill versions were installed as normal skills, so they had to trigger on their own from the description.
 
 | Trap | No skill | v1 | **v2** |
 |---|---|---|---|
